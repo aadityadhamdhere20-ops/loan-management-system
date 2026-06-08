@@ -1,0 +1,1 @@
+package com.lms.scheduler;import org.springframework.scheduling.annotation.Scheduled;import org.springframework.stereotype.Component;@Component public class EmiOverdueScheduler{@Scheduled(cron="0 0 0 * * *") public void run(){}}

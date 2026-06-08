@@ -1,0 +1,1 @@
+package com.lms.entity;import java.time.*;import jakarta.persistence.*;import lombok.*;@Entity @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder public class PasswordResetToken{ @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Long id; @ManyToOne private User user; private String token; private LocalDateTime expiryTime; private boolean used;}

@@ -1,0 +1,1 @@
+package com.lms.service.impl;import com.lms.service.DocumentService;import org.springframework.stereotype.Service;@Service public class DocumentServiceImpl implements DocumentService{}

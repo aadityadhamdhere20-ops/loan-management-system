@@ -1,0 +1,1 @@
+package com.lms.service.impl;import com.lms.service.LoanAccountService;import org.springframework.stereotype.Service;@Service public class LoanAccountServiceImpl implements LoanAccountService{}

@@ -1,0 +1,1 @@
+package com.lms.exception; public class UnauthorizedException extends RuntimeException{ public UnauthorizedException(String m){super(m);} public UnauthorizedException(){super("Unauthorized");}}

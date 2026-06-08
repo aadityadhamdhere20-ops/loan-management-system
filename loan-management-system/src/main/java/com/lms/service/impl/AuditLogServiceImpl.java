@@ -1,0 +1,1 @@
+package com.lms.service.impl;import com.lms.service.AuditLogService;import org.springframework.stereotype.Service;@Service public class AuditLogServiceImpl implements AuditLogService{}

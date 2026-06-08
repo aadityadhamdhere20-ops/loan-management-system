@@ -1,0 +1,1 @@
+package com.lms.controller;import org.springframework.web.bind.annotation.*;@RestController @RequestMapping("/api/loanofficer") public class LoanOfficerController{@GetMapping public String home(){return "LoanOfficerController working";}}
