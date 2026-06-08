@@ -1,0 +1,1 @@
+package com.lms.controller;import org.springframework.web.bind.annotation.*;@RestController @RequestMapping("/api/sanctionletter") public class SanctionLetterController{@GetMapping public String home(){return "SanctionLetterController working";}}

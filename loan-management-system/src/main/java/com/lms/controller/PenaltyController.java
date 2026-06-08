@@ -1,0 +1,1 @@
+package com.lms.controller;import org.springframework.web.bind.annotation.*;@RestController @RequestMapping("/api/penalty") public class PenaltyController{@GetMapping public String home(){return "PenaltyController working";}}

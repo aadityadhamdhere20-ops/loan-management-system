@@ -1,0 +1,28 @@
+body{margin:0;font-family:Arial;background:#f4f7fb;color:#172033}
+.topbar{background:#22577a;color:white;padding:18px 28px;display:flex;justify-content:space-between;align-items:center}
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.sidebar{background:white;padding:18px;display:flex;flex-direction:column;gap:10px}
+.nav{border:0;background:#eef3f8;padding:13px;border-radius:10px;text-align:left;font-weight:bold;cursor:pointer}
+.nav.active,.nav:hover{background:#22577a;color:white}
+.content{padding:25px}
+.card{background:white;padding:22px;border-radius:15px;margin-bottom:18px;box-shadow:0 8px 25px #0001}
+.view{display:none}
+.view.active{display:block}
+.form{display:grid;gap:14px}
+.grid2{grid-template-columns:1fr 1fr}
+.span2{grid-column:span 2}
+input,select{padding:12px;border:1px solid #cbd5e1;border-radius:10px;font-size:15px}
+.btn{border:0;border-radius:10px;padding:11px 16px;font-weight:bold;cursor:pointer;background:#e2e8f0}
+.btn.primary{background:#22577a;color:white}
+.btn.success{background:#15803d;color:white}
+.btn.danger{background:#dc2626;color:white}
+.hidden{display:none!important}
+.alert{padding:12px;border-radius:10px;margin-bottom:15px;font-weight:bold}
+.alert.ok{background:#dcfce7;color:#166534}
+.alert.err{background:#fee2e2;color:#991b1b}
+.cards,.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}
+.loan-card,.stat{background:white;padding:18px;border-radius:14px;box-shadow:0 8px 20px #0001}
+.table{width:100%;border-collapse:collapse;background:white;margin-top:15px}
+.table th,.table td{padding:12px;border-bottom:1px solid #e5e7eb;text-align:left}
+.table th{background:#f8fafc}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.span2{grid-column:span 1}}

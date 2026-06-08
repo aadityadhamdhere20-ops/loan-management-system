@@ -1,0 +1,1 @@
+package com.lms.service.impl;import com.lms.service.EmailService;import org.springframework.stereotype.Service;@Service public class EmailServiceImpl implements EmailService{}

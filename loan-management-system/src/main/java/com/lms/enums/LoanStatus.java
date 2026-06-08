@@ -1,0 +1,5 @@
+package com.lms.enums;
+
+public enum LoanStatus {
+    DRAFT, SUBMITTED, VERIFICATION, APPROVED, REJECTED, SANCTIONED, DISBURSED, ACTIVE, CLOSED, DEFAULTED
+}

@@ -1,0 +1,1 @@
+package com.lms.util;import java.math.*;public class EmiCalculator{public static BigDecimal calculate(BigDecimal p,BigDecimal annualRate,int months){double principal=p.doubleValue();double r=annualRate.doubleValue()/12/100;double emi=(principal*r*Math.pow(1+r,months))/(Math.pow(1+r,months)-1);return BigDecimal.valueOf(emi).setScale(2,RoundingMode.HALF_UP);}}
